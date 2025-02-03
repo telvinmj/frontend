@@ -1,0 +1,40 @@
+/* src/index.css */
+
+/* Reset margins and set a font-family */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Custom container to center content */
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Navbar custom styles */
+.navbar-custom {
+  background-color: #343a40;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #fff !important;
+}
+
+/* Center page headings */
+.page-heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Custom card styling for content sections */
+.custom-card {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
